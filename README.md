@@ -56,6 +56,3 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-
-## Short reflection
-A 401 Unauthorized response means the request does not contain a valid authentication token and cannot access protected API routes. A successful authenticated profile response returns the logged-in user's information because a valid Sanctum token is provided. After logout, the token is revoked and can no longer be used to access protected endpoints.
